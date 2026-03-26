@@ -17,9 +17,9 @@ def lambda_handler(event, context=None):
         }
     
     fahrenheit = celsius * 9/5
-    fahrenheit = int(fahrenheit)
+    fahrenheitt = int(fahrenheit)
     
     return {
         'statusCode': 200,
-        'body': fahrenheit
+        'body': fahrenheitt
     }
